@@ -1,4 +1,3 @@
-// import $ from 'jquery';
 
 export const storeState = () => {
   let currentState = {};
@@ -30,4 +29,6 @@ export const blueFood = changeState("soil")(5);
 export const hydrate = changeState("water")(1);
 export const superWater = changeState("water")(5);
 
+export const light = changeState("light")(2);
+export const shade = changeState("light")(-2);
 
