@@ -50,9 +50,9 @@ export function updateStatus2(plant) {
 
   if(plant.soil < 15) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.water <= 15) {
+  } else if(plant.soil <= 15) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
-  } else if(plant.water > 25) {
+  } else if(plant.soil > 25) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
   }
 
