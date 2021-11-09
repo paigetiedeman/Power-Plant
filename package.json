@@ -4,12 +4,12 @@
   "homepage": "https://github.com/paigetiedeman/Power-Plant",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/paigetiedeman/Power-Plant",
   "scripts": {
     "build": "webpack --mode=development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest --coverage",
+    "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],

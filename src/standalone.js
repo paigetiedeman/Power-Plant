@@ -4,7 +4,7 @@ export function updateStatus(plant) {
 
   if(plant.water < 15) {
     $("#waterLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.water <= 15) {
+  } else if(plant.water >= 15 && plant.water < 25){
     $("#waterLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.water > 25) {
     $("#waterLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
@@ -20,7 +20,7 @@ export function updateStatus(plant) {
 
   if(plant.soil < 15) {
     $("#soilLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.soil <= 15) {
+  } else if(plant.soil >= 15 && plant.soil < 25) {
     $("#soilLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.soil > 25) {
     $("#soilLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
@@ -34,23 +34,23 @@ export function updateStatus2(plant) {
 
   if(plant.water < 15) {
     $("#waterLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.water <= 15) {
+  } else if(plant.water >= 15 && plant.water < 25) {
     $("#waterLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.water > 25) {
     $("#waterLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
   }
 
-  if(plant.light < 15) {
+  if (plant.light < 15) {
     $("#lightLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.light <= 15) {
+  } else if(plant.light >= 15 && plant.light < 25) {
     $("#lightLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.light > 25) {
     $("#lightLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
   }
 
-  if(plant.soil < 15) {
+  if (plant.soil < 15) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.soil <= 15) {
+  } else if(plant.soil >= 15 && plant.soil < 25) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.soil > 25) {
     $("#soilLevel2 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
