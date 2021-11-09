@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/plant.js"></script>
     <title>Grow Your Plant</title>
   </head>
   <body>
     <div class="container">
-      <h1>Your Plant's Values</h1>
-      <h3><div id="soil-value">0</div></h3>
-      <h3><div id="water-value">0</div></h3>
-      <h3><div id="light-value">0</div></h3>
-      <br>
-      <div class="grow-buttons">
-        <button class="btn-success" id="feed">Add Soil</button>
-        <button class="btn-success" id="super-feed">Add Super Soil</button>
-        <button class="btn-primary" id="water">Water</button>
-        <button class="btn-primary" id="super-water">Super Water</button>
-        <button class="btn-warning" id="light">Light</button>
-        <button class="btn-dark" id="shade">Add Shade</button>
-        <!-- <button class="btn-success" id="show-state">Current Stats</button> -->
+      <div class="row">
+        <div class="col">
+          <div class="name-results">
+            <h1><span id="name-display"></span> Plant's Values</h1>
+          </div>
+          <form id="form-name">
+            <label for="name">Name your plant</label>
+            <input id="name" class="form-control" type="text"><br>
+            <button type="submit" class="btn-dark" id="name">Submit</button>
+          </form>
+          <br>
+          <h3><div id="soil-value">0</div></h3>
+          <h3><div id="water-value">0</div></h3>
+          <h3><div id="light-value">0</div></h3>
+          <br>
+          <div class="grow-buttons">
+            <button class="btn-success" id="feed">Add Soil</button>
+            <button class="btn-success" id="super-feed">Add Super Soil</button>
+            <button class="btn-primary" id="water">Water</button>
+            <button class="btn-primary" id="super-water">Super Water</button>
+            <button class="btn-warning" id="light">Light</button>
+            <button class="btn-dark" id="shade">Add Shade</button>
+            <!-- <button class="btn-success" id="show-state">Current Stats</button> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="name-results2">
+            <h1><span id="name-display2"></span> Plant's Values</h1>
+          </div>
+          <form id="form-name2">
+            <label for="name2">Name your plant</label>
+            <input id="name2" class="form-control" type="text"><br>
+            <button type="submit" class="btn-dark" id="name2">Submit</button>
+          </form>
+          <br>
+          <h3><div id="soil-value2">0</div></h3>
+          <h3><div id="water-value2">0</div></h3>
+          <h3><div id="light-value2">0</div></h3>
+          <br>
+          <div class="grow-buttons">
+            <button class="btn-success" id="feed2">Add Soil</button>
+            <button class="btn-success" id="super-feed2">Add Super Soil</button>
+            <button class="btn-primary" id="water2">Water</button>
+            <button class="btn-primary" id="super-water2">Super Water</button>
+            <button class="btn-warning" id="light2">Light</button>
+            <button class="btn-dark" id="shade2">Add Shade</button>
+          </div>
+        </div>
       </div>
     </div>
 </body>
