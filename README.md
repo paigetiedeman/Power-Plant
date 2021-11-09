@@ -1,8 +1,8 @@
-# Project Name
+# Plant Stats
 
 #### This is a site..
 
-#### _By Paige Tiedeman_
+#### _By Paige Tiedeman & Connor Hansen_
 
 ## Technologies Used
 
@@ -44,4 +44,4 @@ Copyright (c) 2021 Paige Tiedeman
 
 ## Contact Information
 
-_Paige Tiedeman **paigetiedeman@gmail.com**_
+_Paige Tiedeman github.com/paigetiedeman_
