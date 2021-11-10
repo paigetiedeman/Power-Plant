@@ -1,6 +1,6 @@
 # Plant Stats
 
-#### This is a site..
+#### This site implements states to allow users to give light, soil, and water to a plant.
 
 #### _By Paige Tiedeman & Connor Hansen_
 
@@ -18,10 +18,9 @@
 * Popper
 * Package.json
 
-
 ## Description
 
-This simple HTML site uses Javascript...
+This app was created with functional JS programming. Users can click buttons to add water, soil, and light to two plants. Users can see the amount of soil, water, and light added to each plant.
 
 ## Setup/Installation Requirements
 
@@ -29,8 +28,8 @@ This simple HTML site uses Javascript...
 * _Commit and push your .gitignore file to your repo_
 * _Run $ npm install_
 * _Check title on package.json and webpack file_
-* _Open index.html in your browser_
-* _ _
+* _Open index.html in your browser or see gh-pages deployment_
+* _Use buttons to modify plant stats_
 
 ## Known Bugs
 
@@ -40,8 +39,9 @@ This simple HTML site uses Javascript...
 
 _[MIT](https://opensource.org/licenses/MIT)_  
 
-Copyright (c) 2021 Paige Tiedeman
+Copyright (c) 2021 Paige Tiedeman and Connor Hansen
 
 ## Contact Information
 
 _Paige Tiedeman github.com/paigetiedeman_
+_Connor Hansen github.com/chansen1395_

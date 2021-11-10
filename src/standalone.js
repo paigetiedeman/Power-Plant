@@ -12,7 +12,7 @@ export function updateStatus(plant) {
 
   if(plant.light < 15) {
     $("#lightLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
-  } else if(plant.light <= 15) {
+  } else if(plant.light >= 15 && plant.light < 25) {
     $("#lightLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-warning');
   } else if(plant.light > 25) {
     $("#lightLevel1 .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
